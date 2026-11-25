@@ -95,4 +95,3 @@ login(biblioteca-servidor/biblioteca-site) - apenas no dia 8, se o minimo estive
 dia 9: auditoria escrita por mim , documentos em dia, links finais enviados. Só correções
 dia 10: demonstrar, explicar dois trechos, fazer uma pequena alteração ao vivo
 
-9.
