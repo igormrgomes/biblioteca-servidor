@@ -28,3 +28,24 @@ inclua o titulo da biblioteca ( Biblioteca da Associação de Moradores do Jardi
 
 
 vínculos: a tag  tem que conectar o arquivo CSS no  e a tag  carregue o arquivo JavaScript ao final do 
+
+
+etapa 3:
+ontexto: o projeto backend já possui servidor Express, MongoDB configurado
+
+
+tarefa: agora deve ser constrúido o modelo de coleção de livros e rotas CRUD para cadastrar, listar, buscar por ID, editar e excluir ( get / livros, post / livros, delete / livros/:id, put / livros/:id, get / livros/:id)
+
+
+restrições: entidade livros: titulo(obrigatorio, string), autor(obrigatorio, string)
+os campos obrigatorios devem ser validados no backend e retornar status http 400 se estiverem ausentes
+nao criar pacotes, arquivos ou pastas não solicitados
+
+
+pronto quando: Resposta 201 ao criar um livro com sucesso
+.
+Resposta 200 ao listar, buscar por ID ou editar
+.
+Resposta 400 com mensagem de erro clara ao tentar cadastrar ou editar sem um campo obrigatório
+.
+Resposta 404 ("não encontrado") quando um ID inexistente ou inválido for buscado, editado ou excluído, sem derrubar a aplicação
